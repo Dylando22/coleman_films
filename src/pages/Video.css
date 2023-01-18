@@ -1,0 +1,25 @@
+.background-home {
+    width: 55%;
+    margin: 20px 0px 20px 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .background-home {
+        width: 90%;
+        margin: auto;
+    }
+
+  }
+
+  .video-responsive {
+    width: 560px;
+    margin: auto; 
+  }
+
+    @media only screen and (max-width: 600px) {
+        .video-responsive {
+            width: 350px;
+            margin: auto; 
+    
+      }
+    }

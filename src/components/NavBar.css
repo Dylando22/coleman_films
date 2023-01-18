@@ -1,0 +1,37 @@
+.navbar-img {
+    height: 75px;
+    cursor: pointer;
+}
+
+.footer-img {
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.price-image {
+    height: 130px;
+    margin: auto;
+}
+
+.film-image {
+    width: 100%;
+    height: inherit;
+}
+
+.chad1-image {
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+    max-width: 700px;
+    max-height: 700px;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .chad1-image {
+        margin: auto;
+    }
+  }
