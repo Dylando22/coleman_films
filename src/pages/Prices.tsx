@@ -60,13 +60,20 @@ export default function Prices() {
       >
         PRICES
       </Typography>
+      <Typography
+        fontFamily="American Typewriter, serif"
+        textAlign="center"
+        variant="h4"
+      >
+        Click to get a quote for your wedding video
+      </Typography>
       <Box
         sx={{
           margin: "auto",
           display: "flex",
           alignItems: "center",
           flexDirection: { xs: "column", md: "row" },
-          justifyContent: "space-between",
+          justifyContent: "center",
           width: { xs: "95%", md: "900px" },
         }}
       >
@@ -74,12 +81,12 @@ export default function Prices() {
           setOpen={setOpen}
           setId={setPackageId}
           title="Base Package"
-          prices={[800, 1199]}
+          prices={[800, 1999]}
           color="orange"
-          features={["1", "2", "3"]}
+          features={["First Look", "Ceremony", "Reception", "Temple Exit"]}
           image={"./images/image1.png"}
         />
-        <PackageCard
+        {/* <PackageCard
           setOpen={setOpen}
           setId={setPackageId}
           title="Standard Package"
@@ -96,7 +103,7 @@ export default function Prices() {
           color="#1c46ba"
           features={["1", "2", "3"]}
           image={"./images/image1.png"}
-        />
+        /> */}
       </Box>
       <Modal
         sx={{

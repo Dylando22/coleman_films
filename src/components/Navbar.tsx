@@ -54,7 +54,7 @@ export default function Navbar({ mode, setMode }: Props) {
       >
         <div
           onClick={() => {
-            navigate("/");
+            navigate("/coleman_films");
             changeActive(0);
           }}
         >

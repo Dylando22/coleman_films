@@ -3,6 +3,7 @@ import BackgroundVideo from "./test.mp4";
 import HorizontalQuoteHolder from "../components/HorizontalQuoteHolder";
 import "./Video.css";
 import Chad3 from "../assets/CHAD3.png";
+import Poster from "../assets/poster.png";
 
 export default function Home() {
   const quotes = [
@@ -34,13 +35,7 @@ export default function Home() {
           paddingTop: { xs: "20px", md: "0px" },
         }}
       >
-        <video
-          className="background-home"
-          autoPlay
-          loop
-          muted
-          poster="https://assets.codepen.io/6093409/river.jpg"
-        >
+        <video className="background-home" autoPlay loop muted poster={Poster}>
           <source src={BackgroundVideo} type="video/mp4" />
         </video>
         <Box

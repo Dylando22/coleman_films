@@ -70,7 +70,7 @@ export default function PackageCard({
           marginLeft="15px"
           textAlign="start"
         >
-          Includes:
+          Options:
         </Typography>
         {features.map((item) => (
           <Typography
@@ -92,8 +92,10 @@ export default function PackageCard({
         >
           <Button
             onClick={() => {
-              setOpen(true);
-              setId(title);
+              window.open(
+                "https://www.honeybook.com/widget/chad_coleman_films_160130/cf_id/5f1bc8daa90076001e9f457f",
+                "_blank"
+              );
             }}
             sx={buttonSX}
           >
