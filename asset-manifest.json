@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/coleman_films/static/css/main.8dd4f537.css",
-    "main.js": "/coleman_films/static/js/main.80d202b0.js",
+    "main.js": "/coleman_films/static/js/main.45322f88.js",
     "static/media/test.mp4": "/coleman_films/static/media/test.35038af72ec2f924c824.mp4",
     "static/media/CHAD3.png": "/coleman_films/static/media/CHAD3.50cc30a1b6699700d05b.png",
     "static/media/chad_logo.png": "/coleman_films/static/media/chad_logo.31cd10af067cf27d1025.png",
     "index.html": "/coleman_films/index.html",
     "main.8dd4f537.css.map": "/coleman_films/static/css/main.8dd4f537.css.map",
-    "main.80d202b0.js.map": "/coleman_films/static/js/main.80d202b0.js.map"
+    "main.45322f88.js.map": "/coleman_films/static/js/main.45322f88.js.map"
   },
   "entrypoints": [
     "static/css/main.8dd4f537.css",
-    "static/js/main.80d202b0.js"
+    "static/js/main.45322f88.js"
   ]
 }
