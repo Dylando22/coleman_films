@@ -1,4 +1,4 @@
-import { ModeNight, LightMode, Block, Menu } from "@mui/icons-material";
+import { ModeNight, LightMode, Menu } from "@mui/icons-material";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import { useNavigate } from "react-router-dom";

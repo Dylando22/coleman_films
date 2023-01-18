@@ -1,6 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
-import { Player } from "video-react";
 import BackgroundVideo from "./test.mp4";
 import HorizontalQuoteHolder from "../components/HorizontalQuoteHolder";
 import "./Video.css";

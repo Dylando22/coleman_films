@@ -44,7 +44,7 @@ export default function FilmCard({
               height: "220px",
             }}
           >
-            <img className="film-image" alt="image" src={image} />
+            <img className="film-image" alt={title} src={image} />
           </Box>
           <Box
             sx={{
@@ -141,7 +141,7 @@ export default function FilmCard({
               height: "220px",
             }}
           >
-            <img className="film-image" alt="image" src={image} />
+            <img className="film-image" alt={title} src={image} />
           </Box>
         </Box>
       )}

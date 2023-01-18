@@ -1,6 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
-import { Player } from "video-react";
 import FilmCard from "../components/FilmCard";
 import filmData from "../data/FilmData";
 import "./Video.css";

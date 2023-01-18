@@ -8,11 +8,8 @@ import { IconButton } from "@mui/material";
 import { Box } from "@mui/system";
 import "./NavBar.css";
 import Logo from "../assets/chad_logo.png";
-import { useNavigate } from "react-router";
 
 export default function Footer() {
-  const navigate = useNavigate();
-
   return (
     <Box
       sx={{

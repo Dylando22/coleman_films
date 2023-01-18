@@ -1,5 +1,4 @@
 import { Box, Button, Card, Typography } from "@mui/material";
-import React, { ChangeEvent, useState } from "react";
 import "./NavBar.css";
 
 interface Props {
@@ -61,7 +60,7 @@ export default function PackageCard({
             marginTop: "15px",
           }}
         >
-          <img className="price-image" alt="image" src={image} />
+          <img className="price-image" alt={title} src={image} />
         </Box>
         <Typography textAlign="center" variant="h5">
           ${prices[0]} - ${prices[1]}
