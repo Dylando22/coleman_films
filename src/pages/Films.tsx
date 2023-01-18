@@ -29,13 +29,14 @@ export default function Films() {
       </Typography>
       <Box
         sx={{
-          padding: "20px",
+          padding: { xs: "0px", md: "20px" },
           maxWidth: "850px",
           margin: "auto",
         }}
       >
         {filmData.map((item) => (
           <FilmCard
+            key={item.link}
             direction={item.direction}
             title={item.title}
             quote={item.quote}

@@ -69,19 +69,19 @@ export default function Navbar({ mode, setMode }: Props) {
       >
         <HeaderLink
           title="HOME"
-          link="/"
+          link="/coleman_films"
           active={active[0]}
           changeActive={() => changeActive(0)}
         />
         <HeaderLink
           title="FILMS"
-          link="/films"
+          link="/coleman_films/films"
           active={active[1]}
           changeActive={() => changeActive(1)}
         />
         <HeaderLink
           title="PRICES"
-          link="/prices"
+          link="/coleman_films/prices"
           active={active[2]}
           changeActive={() => changeActive(2)}
         />
@@ -148,19 +148,19 @@ export default function Navbar({ mode, setMode }: Props) {
           </Typography>
           <SideBarLink
             title="HOME"
-            link="/"
+            link="/coleman_films"
             active={active[0]}
             changeActive={() => changeActive(0)}
           />
           <SideBarLink
             title="FILMS"
-            link="/films"
+            link="/coleman_films/films"
             active={active[1]}
             changeActive={() => changeActive(1)}
           />
           <SideBarLink
             title="PRICES"
-            link="/prices"
+            link="/coleman_films/prices"
             active={active[2]}
             changeActive={() => changeActive(2)}
           />

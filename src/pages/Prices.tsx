@@ -77,7 +77,7 @@ export default function Prices() {
           prices={[800, 1199]}
           color="orange"
           features={["1", "2", "3"]}
-          image={"../image1.png"}
+          image={"./images/image1.png"}
         />
         <PackageCard
           setOpen={setOpen}
@@ -86,7 +86,7 @@ export default function Prices() {
           prices={[1200, 1599]}
           color="#ba1c37"
           features={["1", "2", "3"]}
-          image={"../image1.png"}
+          image={"./images/image1.png"}
         />
         <PackageCard
           setOpen={setOpen}
@@ -95,7 +95,7 @@ export default function Prices() {
           prices={[1600, 1999]}
           color="#1c46ba"
           features={["1", "2", "3"]}
-          image={"../image1.png"}
+          image={"./images/image1.png"}
         />
       </Box>
       <Modal

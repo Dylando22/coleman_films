@@ -79,8 +79,11 @@ export default function FilmCard({
               disableElevation
               sx={{ color: "white" }}
               variant="contained"
+              onClick={() => {
+                window.open(link, "_blank");
+              }}
             >
-              watch now
+              Watch Now
             </StyledButton>
           </Box>
         </Box>
@@ -128,10 +131,10 @@ export default function FilmCard({
               sx={{ color: "white" }}
               variant="contained"
               onClick={() => {
-                window.open(link, "__blank");
+                window.open(link, "_blank");
               }}
             >
-              watch now
+              Watch Now
             </StyledButton>
           </Box>
           <Box

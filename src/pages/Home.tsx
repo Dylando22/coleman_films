@@ -65,7 +65,7 @@ export default function Home() {
         <Box
           sx={{
             margin: "auto",
-            width: "50%",
+            width: { xs: "90%", md: "50%" },
             maxWidth: "500px",
             textAlign: "center",
           }}

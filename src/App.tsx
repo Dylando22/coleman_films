@@ -28,9 +28,11 @@ export default function App() {
           <Navbar mode={mode} setMode={setMode} />
           {/* <Header mode={mode} setMode={setMode} /> */}
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/films" element={<Films />} />
-            <Route path="/prices" element={<Prices />} />
+            <Route path="/coleman_films">
+              <Route index element={<Home />} />
+              <Route path="films" element={<Films />} />
+              <Route path="prices" element={<Prices />} />
+            </Route>
           </Routes>
           <Footer />
         </Router>

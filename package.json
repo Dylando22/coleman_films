@@ -1,5 +1,6 @@
 {
   "name": "coleman-films",
+  "homepage": "https://dylando22.github.io/coleman_films/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
