@@ -3,7 +3,7 @@ import React, { useState, useMemo } from "react";
 import Navbar from "./components/Navbar";
 import { darkTheme } from "./theme/dark";
 import { lightTheme } from "./theme/light";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Films from "./pages/Films";
 import Prices from "./pages/Prices";
@@ -24,11 +24,11 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <Box bgcolor="background.default" color={"text.primary"}>
-        <Router>
+        <Router basename="/">
           <Navbar mode={mode} setMode={setMode} />
           {/* <Header mode={mode} setMode={setMode} /> */}
           <Routes>
-            <Route path="/coleman_films">
+            <Route path="/">
               <Route index element={<Home />} />
               <Route path="films" element={<Films />} />
               <Route path="prices" element={<Prices />} />

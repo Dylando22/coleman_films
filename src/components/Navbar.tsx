@@ -54,7 +54,7 @@ export default function Navbar({ mode, setMode }: Props) {
       >
         <div
           onClick={() => {
-            navigate("/coleman_films");
+            navigate("/");
             changeActive(0);
           }}
         >
@@ -69,19 +69,19 @@ export default function Navbar({ mode, setMode }: Props) {
       >
         <HeaderLink
           title="HOME"
-          link="/coleman_films"
+          link="/"
           active={active[0]}
           changeActive={() => changeActive(0)}
         />
         <HeaderLink
           title="FILMS"
-          link="/coleman_films/films"
+          link="/films"
           active={active[1]}
           changeActive={() => changeActive(1)}
         />
         <HeaderLink
           title="PRICES"
-          link="/coleman_films/prices"
+          link="/prices"
           active={active[2]}
           changeActive={() => changeActive(2)}
         />
@@ -148,19 +148,19 @@ export default function Navbar({ mode, setMode }: Props) {
           </Typography>
           <SideBarLink
             title="HOME"
-            link="/coleman_films"
+            link="/"
             active={active[0]}
             changeActive={() => changeActive(0)}
           />
           <SideBarLink
             title="FILMS"
-            link="/coleman_films/films"
+            link="/films"
             active={active[1]}
             changeActive={() => changeActive(1)}
           />
           <SideBarLink
             title="PRICES"
-            link="/coleman_films/prices"
+            link="/prices"
             active={active[2]}
             changeActive={() => changeActive(2)}
           />
